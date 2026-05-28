@@ -24,7 +24,7 @@ public class Backup
     string strFullProjectname = PathMap.SubstitutePath("$(P)"); //Default path 
 
 
-    string projectsPath = PathMap.SubstitutePath("$(MD_MECHANICALMODELS)"); //Default project store path
+    string projectsPath = @"C:\EPLAN\Backups";
     string projectName = PathMap.SubstitutePath("$(PROJECTNAME)"); //Default project name
 
     string date = DateTime.Now.ToString("yyyy-MM-dd"); //Defined date variable
